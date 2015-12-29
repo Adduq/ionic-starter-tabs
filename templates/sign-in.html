@@ -1,0 +1,15 @@
+<ion-view view-title="Sign-In">
+    <ion-content>
+      <div style="text-align: center;">
+        <input style="width:100%;" ng-model="vm.user.email" type="text" name="email" placeholder="Email" />
+        <input style="width:100%;" ng-model="vm.user.password" type="password" name="password" placeholder="Password" />
+        <input class="button button-block button-positive" type="submit" value="Sign In" ng-click="vm.submit();" />
+      </div>
+      <p class="text-center">
+        Not a member yet? <a href="#/signup">Sign Up</a>
+      </p>
+      <p class="text-center">
+        <a href="#/forgot-password">Forgot password?</a>
+      </p>
+    </ion-content>
+</ion-view>
